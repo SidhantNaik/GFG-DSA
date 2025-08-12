@@ -21,8 +21,8 @@ public class FindSqrtOfN {
             sqrt++;
         }
 
-        //return sqrt;
+        return sqrt;
 
-        return Math.sqrt(n);
+        
     }
 }
