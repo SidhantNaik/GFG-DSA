@@ -34,10 +34,7 @@ class GCD
     //     if(a==0)
     //         return b;
 
-    //     if(b==0)
-    //         return a;
-
-    //     if(a==b)
+    //     if(b==0||a==b)
     //         return a;
 
     //     if(a>b)
@@ -45,5 +42,11 @@ class GCD
     //     else 
     //         return getGCD(a, b-a);
     // }
+
+
+    int getGCD(int a, int b)
+    {
+        return b==0?a:getGCD(b, a%b);
+    }
     
 }
