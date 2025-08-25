@@ -25,7 +25,11 @@ public class AllFactorOfN {
 
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
+
        System.out.println(printDivisors(a));
+   
         
     }
+
+   
 }
